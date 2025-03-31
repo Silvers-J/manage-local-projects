@@ -1,0 +1,7 @@
+processes:
+- name: "cat"
+  command: "cat"
+  args: ["main.go"]
+- name: "ls"
+  command: "ls"
+  args: ["-l"]
